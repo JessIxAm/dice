@@ -14,5 +14,5 @@ var winner = document.getElementById('winner');
           winner.innerHTML = "🚩Player 2 Wins !!!";
      } else {
           winner.setAttribute('class', '');
-          winner.innerHTML = "No one wins, try again";
+          winner.innerHTML = "It's a draw!! Try again?";
      }
