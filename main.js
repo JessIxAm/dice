@@ -8,10 +8,10 @@ var winner = document.getElementById('winner');
 
      if (randomNumber1 > randomNumber2) {
           winner.setAttribute('class', 'wrinkle');
-          winner.innerHTML = "Player 1 Wins !!!";
+          winner.innerHTML = "🚩Player 1 Wins !!!";
      } else if (randomNumber1 < randomNumber2) {
           winner.setAttribute('class', 'wrinkle');
-          winner.innerHTML = "Player 2 Wins !!!";
+          winner.innerHTML = "🚩Player 2 Wins !!!";
      } else {
           winner.setAttribute('class', '');
           winner.innerHTML = "No one wins, try again";
